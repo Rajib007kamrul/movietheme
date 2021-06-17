@@ -1,0 +1,739 @@
+/* ============================
+Common CSS 
+============================ */
+
+*{
+ margin:0;
+ padding:0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul,ol,li {
+  list-style:none;
+}
+
+body {
+  /* color: #666666; */
+  font-family:Georgia, sans-serif;
+  font-size: 16px;
+}
+
+
+img{
+  max-width:100%;
+  height: auto;
+}
+
+
+/* ============================
+Common CSS 
+============================ */
+
+
+/* ============================
+Header CSS
+============================ */
+
+.header {
+  background: #458502;
+  width: 100%;
+  clear: both;
+  color: #fff;
+}
+
+.language-switcher {
+  display:flex;
+}
+
+.top-right-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-right-nav li {
+  margin-right: 20px;
+
+}
+
+.top-right-nav li:last-child {
+  margin-right: 0;
+}
+
+.top-right-nav li a {
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+color: #EEEEEE;
+}
+/* ============================
+Header CSS
+============================ */
+
+/* ============================
+logo sidebar CSS
+============================ */
+.header-logo {
+  display:flex;
+}
+
+.main-menu{
+  display:flex;
+  margin: 10px;
+}
+
+ul.main-menu li {
+  margin-right: 10px;
+}
+
+ul.main-menu li a{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  color: #EEEEEE;
+}
+.login-btn{
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 5px;
+    min-width: 120px;
+    text-align: center;
+    box-sizing: border-box
+    ;
+}
+
+.login-container{
+      display: flex;
+      justify-content: flex-end;
+}
+
+/* ============================
+logo sidebar CSS
+============================ */
+
+/* ============================
+Slider CSS
+============================ */
+
+.container-fluid {
+      /* padding-right: -15px !important;
+      padding-left: -15px !important; */
+}
+
+
+.slider {
+  background: #F1F5F9;
+  paddingt: 20px 0px;
+}
+.slider-title {
+margin-top: 70px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 100%;
+/* identical to box height, or 36px */
+
+
+/* Title */
+
+color: #0F192D;
+
+}
+
+.slider-title span {
+  color: red;
+}
+.btn-primary {
+  background: #458502;
+  border-radius: 5px;
+}
+
+.slider-image {
+  background: #fff;
+  padding: 5px;
+  border-radius: 100%;
+  text-align: center;
+  max-width: 480px;
+}
+
+.bx-wrapper {
+  position: none !important;
+}
+
+
+/* ============================
+Slider CSS
+============================ */
+
+/* ============================
+searchbarCSS
+============================ */
+.gun{
+
+}
+
+.searchbar {
+
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  /* identical to box height, or 100% */
+  /* Font Secondery */
+  color: #6F7581;
+
+}
+
+.search-form{
+  position: relative;
+}
+
+.search-form i.fa-search {
+  position:absolute;
+  top:0;
+  right: 20px;;
+  
+}
+
+.search-form #search {
+  width:100%;
+}
+.searchimg {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.searchimg li{
+  flex-basis: 25%;
+}
+
+.searchimg li h5{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  /* Paragraph */
+
+  color: #545555;
+}
+.searchimg li a{
+  text-align: center;
+  display: block;
+  
+}
+.searchimg li a img {
+
+  background: aliceblue;
+  border-radius: 150px;
+}
+
+
+
+
+/* ============================
+searchbar CSS
+============================ */
+
+/* ============================
+gun-gallery CSS
+============================ */
+
+.row {
+  display: flex;
+  margin-top: 50px;
+
+  
+}
+
+.owl-carousel img {
+  min-width: 100px;
+  max-width: 100%;
+}
+
+.owl-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.owl-prev, .owl-next {
+  font-size: 50px !important;
+}
+
+.price {
+  color:green;
+}
+
+.col-md-3 a h5 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+
+  /* Font color */
+
+  color: #0F192D;
+}
+
+/* ============================
+gun-gallery CSS
+============================ */
+/* ============================
+felt CSS
+============================*/
+.felt-item {
+  display: flex;
+}
+.felt-item a{
+  margin-top: -25px;
+  margin-right: 30px;
+
+}
+
+.felt-item h5{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+
+  /* Font color */
+
+  color: #0F192D;
+
+}
+
+/* ============================
+felt CSS
+============================*/
+
+/* ============================
+Newsletter CSS
+============================ */
+
+.Newsletter {
+
+  background: #F1F5F9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /*Font Secondery */
+  color: #6F7581;
+}
+
+.newsletter-title {
+  font-family: Work Sans;
+  font-style: normal;
+  line-height: 100%;
+  /* identical to box height, or 30px */
+}
+.newsletter-title h3 {
+
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Font color */
+    font-size: 30px;
+    font-weight: bold;
+    color: #0F192D;
+        justify-content: center;
+}
+
+.p{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Font Secondery */
+
+  color: #6F7581;
+
+}
+
+#Newsletter{
+  justify-content: center;
+  width: 450px;
+  height: 40px;
+  left: 640px;
+  top: 4490px;
+  background: #FFFFFF;
+}
+.subscribe {
+  justify-content: center;
+}
+
+.subscribe p {
+  margin-top:25px;
+  justify-content: center;
+}
+.subscribe .btn {
+      background: green;
+      color: #fff;
+      margin-left: 15px;
+      }
+
+
+/* ============================
+Newsletter CSS
+============================ */
+
+
+
+
+
+/* footer */
+
+.footer {
+  background: #1D2537;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.footer-social li {
+  margin-right: 5px;
+}
+
+.footer-social li a.facebook {
+  background: #3B5998;
+
+}
+
+.footer-social li a.youtube {
+  background: #FE4848;
+
+}
+
+.footer-social li a.twitter {
+background: #1DA1F2;
+
+}
+
+.footer-social li a {
+color: #fff;
+padding: 5px;
+border-radius: 100%;
+width: 40px;
+display: block;
+text-align: center;
+}
+
+.footer-widget-title {
+  color: #fff;
+  font-size: 16px;
+  font-family: work sans;
+}
+
+{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  /* or 186% */
+
+
+  /* White */
+
+  color: #FFFFFF;
+
+  opacity: 0.7;
+}
+
+.footer-title-1 {
+  color: green;
+}
+
+.footer-contact li i {
+  margin-right: 10px;
+}
+
+ul.footer-widget-content li {
+  margin-bottom: 2px;
+}
+
+ul.footer-widget-content li a,
+
+ul.footer-widget-first-content li {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: none;
+  /* or 186% */
+
+
+  /* White */
+
+  color: #FFFFFF !important;
+  opacity: 0.7;
+}
+
+ul.footer-widget-first-content {
+  margin-bottom:10px;
+}
+
+ul.footer-widget-first-content li { 
+
+}
+
+.payment-gateway img {
+  max-width: 40px;
+}
+.payment-gateway{
+  display: flex;
+}
+
+.copyright-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+
+  color: #0F192D;
+}
+
+.copyright-text i {
+  color: red;
+}
+
+.payment-gateway li {
+margin-right: 5px;
+}
+
+/* footer */
+
+
+/* ============================
+product CSS 
+============================ */
+
+/* product */
+
+
+.display-btn {
+    background: #458502;
+    border-radius: 1px;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    min-width: 100px;
+}
+
+.price-info h5{
+  padding-top: 60px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  /* Dark */
+
+  color: #0F192D;
+}
+
+.price-info p{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+
+  /* Font Secondery */
+
+  color: #6F7581;
+}
+
+.price-info li {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+
+  /* Font Secondery */
+
+  color: #6F7581;
+}
+
+.price-info li span{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: right;
+
+  /* Font color */
+
+  color: #0F192D;
+}
+.price-info li.price {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100%;
+  /* identical to box height, or 24px */
+
+  /* Color 1 */
+
+  color: #458502;
+}
+
+.price-info li.add{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  display: flex;
+  align-items: center;
+
+  /* Color 1 */
+
+  color: #458502;
+}
+
+/* product */
+
+/* Message */
+
+.logo-Message {
+  display:flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.Seller {
+      background: #458502;
+      border-radius: 1px;
+      padding: 10px;
+      color: #fff;
+      border: none;
+}
+
+.numbers-icon{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.numbers-icon p{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+ /* identical to box height, or 14px */
+
+
+ /* Font color */
+
+color: #0F192D;
+}
+
+
+/* Message */
+
+/* Description */
+
+.Description h5{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 100%;
+  /* or 18px */
+
+
+  /* Font color */
+
+  color: #0F192D;
+}
+
+.Description p{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* display: flex; */
+  /* align-items: center; */
+
+}
+
+
+.specification-list li {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Work Sans;
+  font-style: normal;
+  font-size: 16px;
+  color: #0F192D;
+}
+
+
+
+/* Description */
+/* ============================
+product CSS 
+============================ */
+
